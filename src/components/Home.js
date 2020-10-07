@@ -3,6 +3,7 @@ import { Linkedin } from 'react-feather'
 import { GitHub } from 'react-feather'
 import styles from '../Home.css'
 import Navbar from './Navbar'
+import {Link} from 'react-router-dom'
 class Home extends React.Component {
 
     render() {
@@ -15,8 +16,13 @@ class Home extends React.Component {
                 <div id='title'></div>
                  <h1 style={{color: 'white'}}>Jordan Long</h1>   
                     <h3 style={{color: 'white'}}>Front end developer </h3>
-             <Linkedin onClick={this.handleLinkedInClick} style={{color: 'white'}} />              
+             <a href='https://www.linkedin.com/in/jordan-long21/'> 
+             <Linkedin style={{color: 'white'}} /> 
+             </a>
+            <a href='https://github.com/JordanLong1'>
              <GitHub style={{color: 'white'}}/>
+
+            </a>
             </div>
 
         </div>
