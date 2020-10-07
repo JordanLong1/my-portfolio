@@ -26,6 +26,12 @@
     color: white;
 }
 
+.avatar-pic {
+   height: 450px;
+   width: 450px;
+   border-radius: 50%;
+}
+
 .about-container {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
