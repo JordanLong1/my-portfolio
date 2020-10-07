@@ -4,12 +4,14 @@ import Home from './Home';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import ContactMe from './ContactMe';
+import Navbar from './Navbar'
 
 class App extends React.Component {
     render() {
         return (
             <div>
                 <BrowserRouter>
+                <Navbar />
                 <Route exact path='/' component={Home} />
                 <Route exact path='/aboutme' component={AboutMe} />
                 <Route exact path='/projects' component={Projects} />
