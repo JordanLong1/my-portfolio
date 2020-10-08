@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Viga&display=swap');
 .html {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
@@ -69,3 +70,105 @@
     }
   }
   
+
+
+.about-me-header {
+    font-size: 100px;
+    text-align: center;
+    font-family: Orbitron;
+    color: white;
+}
+
+.bio {
+    font-size: 20px;
+    font-family: viga;
+    color: white;
+    position: relative;
+    left: 600px; 
+    top: 200px;
+}
+
+.frontend-skills {
+    position: relative;
+    top: 500px;
+    left: 550px;
+    color: white;
+}
+
+.backend-skills {
+    color: white;
+    position: relative;
+    left: 550px;
+    top: 500px;
+}
+
+.interests {
+    color: white;
+    position: relative;
+    top: 500px;
+    left: 550px;
+}
+
+.avatar-pic {
+   height: 450px;
+   width: 450px;
+   border-radius: 50%;
+   position: absolute;
+   top: 200px;
+   margin-left: 50px;
+}
+
+.about-container {
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+.contact-container {
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: Orbitron;
+}
+
+.linked-icon {
+    color: white;
+    height: 50px; 
+    width: 50px;
+}
+
+.github-icon {
+    color: white;
+    width: 50px;
+    height: 50px;
+
+}
+
+.mail-icon {
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.hamburger {
+  color: white; 
+  height: 50px; 
+  width: 50px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
