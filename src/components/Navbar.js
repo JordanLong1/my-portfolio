@@ -5,23 +5,23 @@ class Navbar extends React.Component {
         return (
             <div className="ui menu">
                 <div className="header item">
-                  
+                  My Portfolio
                 </div>
                 <Link to ='/' className="item">
                 Home
                 </Link>
                 <Link to='/aboutme' className="item">
-               About Me!
+               About Me
                 </Link>
                 <Link to='projects' className="item">
                   Projects
                 </Link>
                 <Link to='/contactme' className="item">
-                 Contact me!
+                  Contact Me
                 </Link>
                 </div>
         )
     }
 }
 
-export default Navbar
+export default Navbar 
