@@ -3,13 +3,19 @@ import { Linkedin } from 'react-feather'
 import { GitHub } from 'react-feather'
 import styles from '../Home.css'
 import Navbar from './Navbar'
+import {Menu} from 'react-feather'
 import {Link} from 'react-router-dom'
 class Home extends React.Component {
 
+    handleClick = () => {
+        
+    }
     render() {
          return (
             <div className='html'>
-                <Navbar />
+                <Navbar >
+                </Navbar>
+                <Menu className='hamburger' onClick={this.handleClick}/>
             <div className='stars'>
                 <div id='stars2'></div>
                 <div id='stars3'></div>
