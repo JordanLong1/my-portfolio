@@ -1,13 +1,14 @@
 import React from 'react' 
-import {Linkedin, GitHub, Mail } from 'react-feather'
+import {Linkedin, GitHub, Mail, Menu } from 'react-feather'
+import style from '../Home.css'
 class ContactMe extends React.Component {
     render() {
         return (
-            <div>
-                <h1 className='contact header'> Contact Me </h1>
-            <Linkedin />
-            <GitHub />
-            <Mail />
+            <div className='contact-container'>
+                <h1 className='header'> Contact Me </h1>
+            <Linkedin className='linked-icon' />
+            <GitHub className='github-icon'/>
+            <Mail className='mail-icon' />
             </div>
         )
     }
