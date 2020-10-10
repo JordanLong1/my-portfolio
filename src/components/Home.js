@@ -1,5 +1,5 @@
 import React from 'react' 
-import { Linkedin } from 'react-feather'
+import { Linkedin, ThumbsDown } from 'react-feather'
 import { GitHub } from 'react-feather'
 import styles from '../Home.css'
 import Navbar from './Navbar'
@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom'
 class Home extends React.Component {
 
     handleClick = () => {
-        
+        this.props.history.push('/navpage')
     }
     render() {
          return (
