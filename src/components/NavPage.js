@@ -5,7 +5,7 @@ class NavPage extends React.Component {
         return (
             <div>
             
-                <Link to='/home' >Home</Link><br></br>
+                <Link to='/' >Home</Link><br></br>
                 <Link to='/projects'>Projects</Link><br></br>
                 <Link to='/contactme'>Contact Me</Link><br></br>
                 <Link to='/aboutme'>About Me</Link>
