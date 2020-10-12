@@ -6,8 +6,12 @@ class ContactMe extends React.Component {
         return (
             <div className='contact-container'>
                 <h1 className='header'> Contact Me </h1>
-            <Linkedin className='linked-icon' />
+                <a href='https://www.linkedin.com/in/jordan-long21/'> 
+                <Linkedin className='linked-icon' />
+             </a>
+             <a href='https://github.com/JordanLong1'>
             <GitHub className='github-icon'/>
+            </a>
             <Mail className='mail-icon' />
             </div>
         )
