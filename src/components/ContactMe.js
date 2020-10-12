@@ -2,6 +2,10 @@ import React from 'react'
 import {Linkedin, GitHub, Mail} from 'react-feather'
 import style from '../Home.css'
 class ContactMe extends React.Component {
+
+    handleClick = () => {
+        window.location.href = "mailto:jordanleelong5@gmail.com"
+    }
     render() {
         return (
             <div className='contact-container'>
@@ -12,7 +16,7 @@ class ContactMe extends React.Component {
              <a href='https://github.com/JordanLong1'>
             <GitHub className='github-icon'/>
             </a>
-            <Mail className='mail-icon' />
+            <Mail className='mail-icon' onClick={this.handleClick}/>
             </div>
         )
     }
