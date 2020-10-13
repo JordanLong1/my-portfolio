@@ -214,3 +214,28 @@
   font-size: 75px;
   font-family: Orbitron;
 }
+
+.project-one-p-tag {
+  color: white;
+}
+
+.project-two-p-tag {
+  color: white;
+}
+
+.project-three-p-tag {
+  color: white;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+
+h4{
+  color: white;
+}
+
+label {
+  color: white;
+}
