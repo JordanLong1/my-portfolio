@@ -6,6 +6,7 @@ class ContactMe extends React.Component {
     handleClick = () => {
         window.location.href = "mailto:jordanleelong5@gmail.com"
     }
+    
     render() {
         return (
             <div className='contact-container'>
