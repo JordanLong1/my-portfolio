@@ -197,3 +197,20 @@
  bottom: 550px;
   right: 30px;
 }
+
+.projects-container {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 0; 
+  left: 0;
+}
+
+.projects-header {
+  color: white;
+  text-align: center;
+  font-size: 75px;
+  font-family: Orbitron;
+}
