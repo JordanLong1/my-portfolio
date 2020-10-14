@@ -211,9 +211,35 @@
 .projects-header {
   color: white;
   text-align: center;
-  font-size: 75px;
+  font-size: 50px;
   font-family: Orbitron;
 }
+
+.project-one {
+  height: 300px;
+  width: 300px;
+  display: table;
+  float: left;
+  padding: 80px;
+}
+
+.project-two {
+  height: 300px;
+  width: 300px;
+  float: left;
+  padding: 80px;
+
+
+}
+
+.project-three {
+  height: 300px;
+  width: 300px;
+  float: left;
+  padding: 80px;
+
+}
+
 
 .project-one-p-tag {
   color: white;
@@ -239,3 +265,30 @@ h4{
 label {
   color: white;
 }
+
+/* 
+look into adding margin: auto; for positioning some divs in the middle.
+  div:hover{
+    transform: scale(1.1); expands on hover
+  }
+
+  ANIMATIONS EXAMPLE: 
+    #rect {
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: green; 
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
+*/
