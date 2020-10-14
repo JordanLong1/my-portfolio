@@ -73,7 +73,7 @@
 
 
 .about-me-header {
-    font-size: 100px;
+    font-size: 50px;
     text-align: center;
     font-family: Orbitron;
     color: white;
@@ -86,20 +86,30 @@
     position: relative;
     left: 600px; 
     top: 200px;
+    height: 200px;
+    width: 300px;
+
 }
 
 .frontend-skills {
     position: relative;
-    top: 400px;
-    left: 450px;
+    top: 200px;
+    left: 350px;
+    bottom: 300px;
     color: white;
+    height: 300px;
+    width: 300px;
+   
 }
 
 .backend-skills {
     color: white;
     position: relative;
-    left: 450px;
-    top: 400px;
+    left: 650px;
+   bottom: 130px;
+    height: 350px;
+    width: 300px;
+
 }
 
 .interests {
@@ -109,14 +119,14 @@
     left: 450px;
 }
 
-.avatar-pic {
+/* .avatar-pic {
    height: 350px;
    width: 350px;
    border-radius: 50%;
    position: absolute;
    top: 200px;
    margin-left: 50px;
-}
+} */
 
 .about-container {
     height: 100%;
