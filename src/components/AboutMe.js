@@ -15,11 +15,20 @@ class AboutMe extends React.Component {
                 </div>
 
                 <div className='frontend-skills'>
-                    frontend skills maybe throw icons
+                   <h4>FrontEnd</h4>
+                   <li>Javascript</li>
+                   <li>React</li>
+                   <li>Redux</li>
+                   <li>HTML</li>
+                   <li>CSS</li>
+                   <li>Bootstrap, Semantic UI</li>
                 </div>
 
                 <div className='backend-skills'>
-                backend skills maybe throw some icons
+                <h4>Backend</h4>
+                <li>Ruby on Rails</li>
+                <li>Postgres</li>
+                <li>SQLite</li>
                 </div>
 
                 <div className='interests'>
