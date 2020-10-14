@@ -35,10 +35,10 @@ class AboutMe extends React.Component {
             <p> list some interests</p>
                 </div>
 
-                <div className='image div'>
+                {/* <div className='image div'>
                     <img className='avatar-pic' src='../profilepic2.jpeg' alt='' />
 
-                </div>
+                </div> */}
             </div>
         )
     }; 
