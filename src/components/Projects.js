@@ -16,7 +16,7 @@ class Projects extends React.Component {
                         <li>Ruby on Rails API</li>
                     </ul>
                     {/* <img></img> */}
-                    <GitHub />
+                    <GitHub style={{color: 'white'}}/>
                     <Youtube style={{color: 'red'}}/>
                 </div>
                 <div className='project-two'>
@@ -32,7 +32,7 @@ class Projects extends React.Component {
                         <li>HTML</li>
                         <li>Semantic UI</li>
                     </ul>
-                    <GitHub />
+                    <GitHub style={{color: 'white'}}/>
                     <Youtube style={{color: 'red'}}/>
                 </div>
 
@@ -47,7 +47,7 @@ class Projects extends React.Component {
                         <li>HTML</li>
                         <li>CSS</li>
                     </ul>
-                    <GitHub /> 
+                    <GitHub style={{color: 'white'}}/> 
                     <Youtube style={{color: 'red'}}/>
 
                 </div>
