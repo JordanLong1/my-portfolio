@@ -276,6 +276,42 @@ label {
   color: white;
 }
 
+.corner-pic {
+  height: 350px; 
+  width: 700px;
+  float: left;
+  margin: 10px;
+  margin-left: 50px;
+  /* image-rendering: auto;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated; */
+
+}
+
+.innovative-pic {
+  height: 350px; 
+  width: 700px;
+  image-rendering: auto;
+  margin: 10px;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+image-rendering: -o-crisp-edges; /* Opera */
+image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+image-rendering: crisp-edges;
+-ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
+.optimal-pic {
+  height: 350px; 
+  width: 700px;
+  margin: 10px;
+  margin-left: 50px;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+image-rendering: -o-crisp-edges; /* Opera */
+image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+image-rendering: crisp-edges;
+-ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
 /* 
 look into adding margin: auto; for positioning some divs in the middle.
   div:hover{
