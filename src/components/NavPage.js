@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link } from 'react-router-dom'
-import stylez from '../Home.css'
+import '../Home.css'
 class NavPage extends React.Component {
     handleClick = () => {
         this.props.history.push('/')

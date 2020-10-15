@@ -1,6 +1,6 @@
 import React from 'react' 
 import {Linkedin, GitHub, Mail} from 'react-feather'
-import style from '../Home.css'
+import '../Home.css'
 class ContactMe extends React.Component {
 
     handleClick = () => {

@@ -1,5 +1,6 @@
 import React from 'react'; 
 import {GitHub, Youtube} from 'react-feather'
+import '../Home.css'
 class ProjectTwo extends React.Component {
     render() {
         return (

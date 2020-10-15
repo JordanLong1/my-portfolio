@@ -1,10 +1,7 @@
 import React from 'react' 
-import { Linkedin, ThumbsDown } from 'react-feather'
-import { GitHub } from 'react-feather'
-import styles from '../Home.css'
+import { GitHub, Menu, Linkedin} from 'react-feather'
+import '../Home.css'
 import Navbar from './Navbar'
-import {Menu} from 'react-feather'
-import {Link} from 'react-router-dom'
 class Home extends React.Component {
 
     handleClick = () => {

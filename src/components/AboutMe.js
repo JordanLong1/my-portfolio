@@ -1,5 +1,5 @@
 import React from 'react'
-import stylez from '../Home.css'
+import '../Home.css'
 // import Navbar from './Navbar'
 class AboutMe extends React.Component {
     render() {
