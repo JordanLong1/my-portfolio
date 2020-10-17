@@ -151,7 +151,7 @@
 .header {
     color: white;
     text-align: center;
-    font-size: 100px;
+    font-size: 75px;
     font-family: Orbitron;
 }
 
@@ -276,40 +276,32 @@ label {
   color: white;
 }
 
-.corner-pic {
+.front-card {
   height: 350px; 
   width: 700px;
   float: left;
-  margin: 10px;
-  margin-left: 50px;
-  /* image-rendering: auto;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: pixelated; */
-
+  margin-left: 100px;
+  margin: 20px;
 }
 
-.innovative-pic {
-  height: 350px; 
-  width: 700px;
-  image-rendering: auto;
-  margin: 10px;
-  image-rendering: -moz-crisp-edges; /* Firefox */
-image-rendering: -o-crisp-edges; /* Opera */
-image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
-image-rendering: crisp-edges;
--ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
-}
-
-.optimal-pic {
-  height: 350px; 
-  width: 700px;
+.front-images {
+  
+  height: 100%;
+  width: 100%;
   margin: 10px;
   margin-left: 50px;
   image-rendering: -moz-crisp-edges; /* Firefox */
-image-rendering: -o-crisp-edges; /* Opera */
-image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
-image-rendering: crisp-edges;
--ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
+
+
+
+.back-card {
+  background-color: green;
 }
 
 /* 
