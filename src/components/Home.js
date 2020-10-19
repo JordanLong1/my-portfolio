@@ -1,33 +1,29 @@
 import React from 'react' 
 import { GitHub, Menu, Linkedin} from 'react-feather'
 import '../Home.css'
-import Navbar from './Navbar'
 class Home extends React.Component {
 
     handleClick = () => {
         this.props.history.push('/navpage')
     }
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render() {
          return (
-            <div className='html'>
-                <Navbar >
-                </Navbar>
+            <div className='home-container'>
+                <h1 className='home-head'>My Portfolio</h1>
                 <Menu className='hamburger' onClick={this.handleClick}/>
-            <div className='stars'>
-                <div id='stars2'></div>
-                <div id='stars3'></div>
-                <div id='title'></div>
-                 <h1 style={{color: 'white'}} className='opening-text'>Hello, welcome to my site. I'm Jordan Long and I am a frontend developer.</h1>   
+                 <h1  className='opening-text'>Hello, welcome to my site. My name is Jordan Long and I am a frontend developer.</h1>   
+                 <p className='opening-text'>Below are the links to my LinkedIn and Github. Click the icon in the top right to navigate :) </p>
              <a href='https://www.linkedin.com/in/jordan-long21/'> 
-             <Linkedin style={{color: 'white'}} className='home-linkedin' /> 
+             <Linkedin  className='home-linkedin' /> 
              </a>
             <a href='https://github.com/JordanLong1'>
-             <GitHub style={{color: 'white'}} className='home-github'/>
-
+             <GitHub  className='home-github'/>
             </a>
             </div>
-
-        </div>
            
          )
     };
