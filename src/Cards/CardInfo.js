@@ -1,6 +1,6 @@
 import React from'react'
 import '../Home.css'
-export const BackOfCard = props => {
+export const CardInfo= props => {
     console.log(props)
     return (
         <div className={props.divClassName}>
