@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Home.css'
+import {Bio} from './Bio'
 // import Navbar from './Navbar'
 class AboutMe extends React.Component {
     render() {
@@ -9,9 +10,7 @@ class AboutMe extends React.Component {
                 <h1 className='about-me-header'>About Me </h1>
             
                 <div className='bio'>
-                    <p> 
-                    This will be the bio
-                    </p>
+                    <Bio />
                 </div>
 
                 <div className='frontend-skills'>
