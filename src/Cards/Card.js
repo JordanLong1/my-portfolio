@@ -1,6 +1,6 @@
 import React from 'react' 
 
-export const FrontCard = props => {
+export const Card = props => {
     console.log(props)
     return (
         <div className='front-card'>
