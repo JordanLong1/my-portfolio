@@ -4,7 +4,6 @@ import Home from './Home';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import ContactMe from './ContactMe';
-import Navbar from './Navbar'
 import NavPage from './NavPage'
 
 class App extends React.Component {
@@ -12,7 +11,6 @@ class App extends React.Component {
         return (
             <div>
                 <BrowserRouter>
-                <Navbar />
                 <Route exact path='/' component={Home} />
                 <Route exact path='/aboutme' component={AboutMe} />
                 <Route exact path='/projects' component={Projects} />
