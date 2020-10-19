@@ -327,6 +327,20 @@ label {
   50% { border-color: orange; }
 }
 
+.home-linkedin {
+  height: 100px; 
+  width: 100px;
+  position: relative; 
+  top: 200px; 
+}
+
+.home-github {
+  height: 100px; 
+  width: 100px;
+  position: relative; 
+  top: 200px; 
+}
+
 /* 
 look into adding margin: auto; for positioning some divs in the middle.
   div:hover{

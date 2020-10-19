@@ -19,10 +19,10 @@ class Home extends React.Component {
                 <div id='title'></div>
                  <h1 style={{color: 'white'}} className='opening-text'>Hello, welcome to my site. I'm Jordan Long and I am a frontend developer.</h1>   
              <a href='https://www.linkedin.com/in/jordan-long21/'> 
-             <Linkedin style={{color: 'white'}} /> 
+             <Linkedin style={{color: 'white'}} className='home-linkedin' /> 
              </a>
             <a href='https://github.com/JordanLong1'>
-             <GitHub style={{color: 'white'}}/>
+             <GitHub style={{color: 'white'}} className='home-github'/>
 
             </a>
             </div>
