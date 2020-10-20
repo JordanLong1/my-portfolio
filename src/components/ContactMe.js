@@ -19,14 +19,20 @@ class ContactMe extends React.Component {
         return (
             <div className='contact-container'>
                 <Menu className='hamburger' onClick={this.handleMenu}/>
-                <h1 className='header'> Contact Me </h1>
+                <h1 className='contact-header'> Contact Me </h1>
+                <div className='linked-div-contact'>
                 <a href='https://www.linkedin.com/in/jordan-long21/'> 
                 <Linkedin className='linked-icon' />
-             </a>
+                </a>
+                </div>
+                <div className='git-div-contact'>
              <a href='https://github.com/JordanLong1'>
             <GitHub className='github-icon'/>
             </a>
+                </div>
+                <div className='mail-div-contact'>
             <Mail className='mail-icon' onClick={this.handleClick}/>
+                </div>
             </div>
         )
     }
