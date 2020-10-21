@@ -14,39 +14,34 @@ body {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Viga&display=swap');
-.home-container {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0; 
-    left: 0;
-   
-  }
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.nav-start {
+  width: 100%;
+}
+
+.nav-end {
+  width: 100%;
+  float: left;
+  padding: 12px; 
+  text-align: center;
+}
+
+.home-text {
+  font-family: Michroma;
+  font-weight: 800;
+  text-align: center;
+}
+
+.avt {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
   
-.about-me-header {
-    font-size: 50px;
-    text-align: center;
-    font-family: Orbitron;
-    color: white;
-}
 
-.bio {
-   color: white;
- 
-}
 
-.frontend-skills {
-    color: white;
-}
-
-.backend-skills {
-    color: white;
-}
-
-.interests {
-    color: white;
-  
-}
 
 /* .avatar-pic {
    height: 350px;
@@ -57,14 +52,6 @@ body {
    margin-left: 50px;
 } */
 
-.about-container {
-    height: 100%;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    width: 100%;
-    position: absolute;
-    top: 0; 
-    left: 0;
-}
 
 .contact-container {
     height: 100%;
@@ -76,20 +63,6 @@ body {
   font-family: Orbitron; 
   font-size: 75px;
   text-align: center;
-}
-
-.home-head {
- 
-    text-align: center;
-    font-size: 65px;
-    font-family: Orbitron;
-}
-
-.home-head:hover {
-    /* font-size: 65px; */
-    transition-duration: 1s; 
-      transform: scale(1.35);
-  color: cyan;
 }
 
 .linked-div-contact {
