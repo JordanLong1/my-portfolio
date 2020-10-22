@@ -1,5 +1,5 @@
 import React from 'react' 
-import {Linkedin, GitHub, Mail, Menu} from 'react-feather'
+import {Linkedin, GitHub, Mail} from 'react-feather'
 import '../Home.css'
 class ContactMe extends React.Component {
 
@@ -11,14 +11,11 @@ class ContactMe extends React.Component {
         window.location.href = "mailto:jordanleelong5@gmail.com"
     }
 
-    handleMenu = () => {
-        this.props.history.push('/navpage')
-    }
+
     
     render() {
         return (
             <div className='contact-container'>
-                <Menu className='hamburger' onClick={this.handleMenu}/>
                 <h1 className='contact-header'> Contact Me </h1>
                 <div className='linked-div-contact'>
                 <a href='https://www.linkedin.com/in/jordan-long21/'> 
