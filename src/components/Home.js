@@ -1,6 +1,7 @@
 import React from 'react' 
 import Navbar from './Navbar'
 import AboutMe from './AboutMe'
+import Projects from './Projects'
 import '../Home.css'
 class Home extends React.Component {
 
@@ -27,9 +28,9 @@ class Home extends React.Component {
                 <div>
                 <AboutMe />
                 </div>
-                {/* <div>
+                <div>
                     <Projects />
-                </div> */}
+                </div>
 
             </div>
            
