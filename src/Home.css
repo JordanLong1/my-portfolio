@@ -92,6 +92,7 @@ body {
 
 .skills-column {
  display: block;
+
   margin: 50px;
   font-family: Michroma;
   text-align: center;
@@ -168,51 +169,66 @@ body {
 
 .projects-container {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  
-  
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .projects-header {
- 
+  margin: 100px;
+  font-family: Michroma;
+  font-weight: 900;
   text-align: center;
-  font-size: 50px;
-  font-family: Orbitron;
- 
+ font-size: 50px;
+}
+
+.h4-for-message {
+  font-size: 30px;
+  font-family: Michroma;
+  text-align: center;
 }
 
 li {
   list-style: none;
 }
 
-h4{
-  color: black;
-  font-size: 20px;
-}
 
 label {
   color: white;
 }
 
 .front-card {
-  height: 350px; 
-  width: 700px;
-  float: left;
-  margin-left: 100px;
+  height: 250px; 
+  width: 400px;
   margin: 20px;
   padding: 50px;
   border-style: solid;
   border-color: white;
   box-shadow:  0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-
-
+  border-radius: 25px;
 }
 
-/* .btn {
-  height: 20px;
-  width: 20px;
-} */
+.git-btn {
+  margin-bottom: 50px;
+  width: 30%;
+  height: 30px;
+  border-radius: 25px;
+  display: block;
+  float: left;
+  background-color: white;
+  position: relative;
+  left: 50px;
+}
+
+.youtube-btn {
+  margin-bottom: 50px;
+  width: 30%;
+  height: 30px;
+  border-radius: 25px;
+  display: block;
+  background-color: white;
+  position: relative;
+  left: 175px;
+}
 
 .project-images {
   
@@ -226,80 +242,6 @@ label {
   -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
 
-.flexbox-item-1 {
-  min-height: 100px;
-}
-
-.flexbox-item-2 {
-  min-height: 100px;
-}
-
-.flexbox-item-3 {
-  min-height: 100px;
-}
-
-.opening-text {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /*Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-.home-linkedin {
-  height: 100px; 
-  width: 100px;
-  position: relative; 
-  top: 200px; 
-}
-
-.home-github {
-  height: 100px; 
-  width: 100px;
-  position: relative; 
-  top: 200px; 
-}
 
 
 
-/* 
-look into adding margin: auto; for positioning some divs in the middle.
-  div:hover{
-    transform: scale(1.1); expands on hover
-  }
-
-  ANIMATIONS EXAMPLE: 
-    #rect {
-    animation-name: rainbow;
-    animation-duration: 4s;
-    animation-iteration-count: infinite; 
-    animation-timing-function: ease-out;
-  }
-
-  @keyframes rainbow {
-    0% {
-      background-color: blue;
-    }
-    50% {
-      background-color: green; 
-    }
-    100% {
-      background-color: yellow;
-    }
-  }
-*/
