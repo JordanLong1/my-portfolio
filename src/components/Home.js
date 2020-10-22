@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
+import ContactMe from './ContactMe'
 import '../Home.css'
 class Home extends React.Component {
 
@@ -30,6 +31,9 @@ class Home extends React.Component {
                 </div>
                 <div>
                     <Projects />
+                </div>
+                <div>
+                    <ContactMe />
                 </div>
 
             </div>
