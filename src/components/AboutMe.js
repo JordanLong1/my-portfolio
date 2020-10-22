@@ -36,7 +36,7 @@ class AboutMe extends React.Component {
          
             <div className='skills-column'>
                 <h4 className='skills-header'>Interests</h4>
-            <p> list some interests</p>
+                 <p>When I'm not coding I enjoy watching or playing anything sports related. Participating in outdoor activities of any kind, and watching movies or playing video games.</p>
             </div>
             </div>
             </div>
