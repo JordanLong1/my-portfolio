@@ -126,64 +126,51 @@ position: fixed;
 .contact-container {
     height: 100%;
     width: 100%;
-  
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 25px;
+}
+
+.contact-text-div {
+  margin-top: 300px;
+  font-family: Michroma; 
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .contact-header {
-  font-family: Orbitron; 
-  font-size: 75px;
+  margin-top: 300px;
+  font-family: Michroma; 
+  font-size: 30px;
+  font-weight: 800;
   text-align: center;
+  margin-bottom: 100px;
 }
 
-.linked-div-contact {
-  border-style: solid;
-  border-color: white;
-  box-shadow:  0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 40px;
+.convo-btn {
+  margin-top: 50px;
+  height: 50px;
+  width: 450px;
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  color: #fc0313;
+  border-color: #fc0313;
+  font-family: Michroma;
 }
-.git-div-contact {
-  border-style: solid;
-  border-color: white;
-  box-shadow:  0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 40px;
+
+.convo-btn:hover {
+  background-color: #fc0313;
+  color: white;
+  border-color: #fc0313;
 }
+
 .mail-div-contact {
-  border-style: solid;
-  border-color: white;
-  box-shadow:  0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 40px;
+  margin-bottom: 200px;;
 }
-
-.linked-icon {
-    color: blue;
-    height: 100%; 
-    width: 100%;
-}
-
-.github-icon {
-    color: black;
-    width: 100%;
-    height: 100%;
-
-}
-
-.mail-icon {
-    color: red;
-    width: 100%;
-    height: 100%;
-}
-
-
-
 
 
 
@@ -246,9 +233,12 @@ label {
   display: block;
   float: left;
   background-color: white;
+  color: #fc0313;
+  border-color: #fc0313;
   position: relative;
   left: 50px;
   margin-bottom: 100px;
+  font-family: Michroma;
 }
 
 .youtube-btn {
@@ -258,9 +248,27 @@ label {
   border-radius: 25px;
   display: block;
   background-color: white;
+  color: #fc0313;
+  border-color: #fc0313;
   position: relative;
   left: 175px;
   margin-bottom: 100px;
+  font-family: Michroma;
+
+}
+
+.git-btn:hover {
+  background-color: #fc0313;
+  color: white;
+  border-color: #fc0313;
+  font-family: Michroma;
+}
+
+.youtube-btn:hover {
+  background-color: #fc0313;
+  color: white;
+  border-color: #fc0313;
+  font-family: Michroma;
 }
 
 
@@ -276,6 +284,40 @@ label {
   image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
   image-rendering: crisp-edges;
   -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
+.footer-container {
+  background-color: #fc0313;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 500px;
+  border: ipx solid #fc0313;
+}
+
+.social-icons {
+  display: inline-block; 
+  margin: 0 auto;
+}
+
+.icon-divs {
+  margin-top: 200px;
+  display: inline-block;
+  border: solid white;
+  border-radius: 50px;
+}
+
+.icons {
+  color: white;
+  height: 50px;
+  width: 100px;
+} 
+
+.icon-divs:hover {
+  background-color: white;
+}
+
+.icons:hover {
+  color: #fc0313;
 }
 
 
