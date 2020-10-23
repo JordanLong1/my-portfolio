@@ -17,6 +17,8 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
 .nav-start {
+  position: fixed;
+  top: 0;
   width: 100%;
 }
 
@@ -25,6 +27,22 @@ body {
   float: left;
   padding: 1px;
   text-align: right;
+  /* position: relative;
+  bottom: 25px;
+  
+} */
+position: fixed;
+  top: 0;
+  right: 2px;
+}
+
+.navbar-links {
+  padding: 5px;
+  color: black;
+}
+
+.navbar-links:active {
+  border-bottom: solid 3px black;
 }
 
 .home-text {
