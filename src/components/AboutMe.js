@@ -5,7 +5,7 @@ import {Bio} from './Bio'
 class AboutMe extends React.Component {
     render() {
         return (
-            <div className='about-container'>
+            <div className='about-container' id='aboutme'>
               
                 <h1 className='about-me-header'>Hi, I'm Jordan. Nice to meet you.</h1>
             

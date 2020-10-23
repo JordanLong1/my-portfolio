@@ -15,7 +15,7 @@ class ContactMe extends React.Component {
     
     render() {
         return (
-            <div className='contact-container'>
+            <div className='contact-container' id='contactme'>
                 <h1 className='contact-header'> Contact Me </h1>
                 <div className='linked-div-contact'>
                 <a href='https://www.linkedin.com/in/jordan-long21/'> 

@@ -8,7 +8,7 @@ class Projects extends React.Component {
         return (
             
             <div>
-                <h1 className='projects-header'>Recent Work</h1>
+                <h1 className='projects-header' id='projects'>Recent Work</h1>
                 <h4 className='h4-for-message'>Here are a few projects I've worked on. Want to see more? Insert GitHub Link</h4>
                 <div className='projects-container'>
 
