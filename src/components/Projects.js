@@ -1,9 +1,20 @@
 import React from 'react'
 import {ProjectPicture} from '../Cards/ProjectPicture'
-// import {ProjectInfo} from '../Cards/ProjectInfo'
+import {ProjectInfo} from '../Cards/ProjectInfo'
 import '../Home.css'
 class Projects extends React.Component {
     
+
+    state = {shown: false}
+
+    onMouseEnter = e => {
+        this.setState( { shown: true })
+    }
+
+    onMouseLeave = e => {
+        this.setState({ shown: false})
+    }
+
     render() {
         return (
             
@@ -15,7 +26,12 @@ class Projects extends React.Component {
                     <div className='project-pics-and-info'>
                         <h4 className='proj-title'>Corner Store Clothing</h4>
                     <ProjectPicture title='Corner Store' image={'../corner.png'} />
-                    {/* <ProjectInfo titleDescription='Basic Shopping cart / e-commerce type with the ability to add and remove items to a from a cart.' description='+ Created the rails API to accomplish fetching product data and present it to the client. + Used OO Javascript to build out the frontend and fetch data from the API. + Implemented various CSS animations to refine the overall presentation of the project' technologies='OO Javascript, Ruby on Rails, HTML, CSS' /> */}
+                    { this.state.shown && (
+                        <div className='project-info-div' onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
+                            <ProjectInfo titleDescription='Basic Shopping cart / e-commerce type with the ability to add and remove items to a from a cart.' description='+ Created the rails API to accomplish fetching product data and present it to the client. + Used OO Javascript to build out the frontend and fetch data from the API. + Implemented various CSS animations to refine the overall presentation of the project' technologies='OO Javascript, Ruby on Rails, HTML, CSS' /> 
+                        </div>
+
+                    )}
                     <button className='git-btn'>Github</button>
                     <button className='youtube-btn'>Youtube</button>
                     </div>
