@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
 import {Home} from 'react-feather'
 import {Link} from 'react-scroll'
 class Navbar extends React.Component {
