@@ -27,10 +27,7 @@ body {
   float: left;
   padding: 1px;
   text-align: right;
-  /* position: relative;
-  bottom: 25px;
-  
-} */
+
 position: fixed;
   top: 0;
   right: 2px;
