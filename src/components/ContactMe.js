@@ -1,5 +1,4 @@
 import React from 'react' 
-// import {Linkedin, GitHub, Mail} from 'react-feather'
 import '../Home.css'
 class ContactMe extends React.Component {
 
@@ -20,22 +19,9 @@ class ContactMe extends React.Component {
                 <h1 className='contact-header'>Interested in collaborating or contacting me?</h1>
                 <p>Teamwork makes the dream work, lets chat. </p>
                 </div>
-            {/* <div className='linked-div-contact'>
-            <a href='https://www.linkedin.com/in/jordan-long21/'> 
-            <Linkedin className='linked-icon' />
-            </a>
-            </div> */}
             <div className='mail-div-contact'>
                 <button onClick={this.handleClick} className='convo-btn'>Start a conversation</button>
             </div>
-            {/* <div className='git-div-contact'>
-            <a href='https://github.com/JordanLong1'>
-            <GitHub className='github-icon'/>
-            </a>
-            </div> */}
-            {/* <div className='mail-div-contact'>
-            <Mail className='mail-icon' onClick={this.handleClick}/>
-            </div> */}
             </div>
         )
     }
