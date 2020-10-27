@@ -1,14 +1,10 @@
-:root {
-  --desktop: 1200px; 
-  --laptop: 1024px; 
-  --tablet: 768px; 
-  --phone: 320px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  display: flex; 
-  justify-content: center;
-  overflow-y: auto;
+  margin-top: 5vh;
 }
 
 
@@ -42,6 +38,12 @@ position: fixed;
   border-bottom: solid 1em black;
 }
 
+.home-container {
+  width: 100%;
+  overflow: hidden;
+  /* display: block; */
+}
+
 .home-text {
   font-family: Michroma;
   font-weight: 800;
@@ -73,7 +75,7 @@ position: fixed;
   background-color: #fc0313;
   height: 100%;
   width: 100%;
-  border-radius: 1.5625em;
+  border-radius: 1.5em;
 }
 
 .about-me-header {
@@ -332,9 +334,60 @@ label {
   }
 
   .home-text {
+    width: 100%;
+    font-size: 20px;
+    line-height: 2em;
     text-align: center;
   }
+
+  .home-container {
+    width: 100%;
+  }
+
+  .avt {
+    max-height: 50%;
+    max-width: 50%;
+  }
+
+  .desk-pic-div {
+    width: 100%;
+  }
+
+  .about-container {
+    width: 100%;
+  }
+
+  .about-me-header {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .bio {
+    font-size: 12px;
+  }
+
+  .skills-column {
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .skills-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 3em;
+  }
+
+  .skills-column li {
+    font-size: 12px;
+    line-height: 2.0;
+  }
   
+  /* body {
+  display: flex; 
+  justify-content: space-evenly;
+  align-content: center;
+} */
+
 
 }
 
