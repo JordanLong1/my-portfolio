@@ -33,7 +33,7 @@ class Footer extends React.Component {
                 </div>
 
                 <div className='copyright'>
-                    Made by me, in react
+                    <p>Created by me, Jordan Long in pure React and CSS</p>
                 </div>
             </div>
         )
