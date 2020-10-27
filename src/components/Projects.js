@@ -17,21 +17,17 @@ class Projects extends React.Component {
 
     render() {
         return (
-            
-            <div>
+                <div className='projects-container'>
                 <h1 className='projects-header' id='projects'>Recent Work</h1>
                 <h4 className='h4-for-message'>Here are a few projects I've worked on. Want to see more? Insert GitHub Link</h4>
-                <div className='projects-container'>
 
                     <div className='project-pics-and-info'>
                         <h4 className='proj-title'>Corner Store Clothing</h4>
                     <ProjectPicture title='Corner Store' image={'../corner.png'} />
-                    { this.state.shown && (
-                        <div className='project-info-div' onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
+                
+                        {/* <div className='project-info-div' onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
                             <ProjectInfo titleDescription='Basic Shopping cart / e-commerce type with the ability to add and remove items to a from a cart.' description='+ Created the rails API to accomplish fetching product data and present it to the client. + Used OO Javascript to build out the frontend and fetch data from the API. + Implemented various CSS animations to refine the overall presentation of the project' technologies='OO Javascript, Ruby on Rails, HTML, CSS' /> 
-                        </div>
-
-                    )}
+                        </div> */}
                     <button className='git-btn'>Github</button>
                     <button className='youtube-btn'>Youtube</button>
                     </div>
@@ -52,7 +48,6 @@ class Projects extends React.Component {
                     <button className='youtube-btn'>Youtube</button>
                     </div>
                 </div>
-            </div>
         )
     }
 }
