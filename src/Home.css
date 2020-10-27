@@ -34,12 +34,12 @@ position: fixed;
 }
 
 .navbar-links {
-  padding: 5px;
+  padding: 1em;
   color: black;
 }
 
 .navbar-links:active {
-  border-bottom: solid 3px black;
+  border-bottom: solid 1em black;
 }
 
 .home-text {
@@ -49,11 +49,12 @@ position: fixed;
 }
 
 .avt {
-  height: 200px;
-  width: 200px;
+    
+  max-width: 20%;
+  max-height: 20%;
   display: block;
   margin: 0 auto;
-  padding: 60px;
+  padding: 3.75em;
 }
 
 .desk-pic-div {
@@ -328,6 +329,10 @@ label {
 
   .nav-end {
     display: none;
+  }
+
+  .home-text {
+    text-align: center;
   }
   
 
