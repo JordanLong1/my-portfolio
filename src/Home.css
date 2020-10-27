@@ -64,6 +64,7 @@ position: fixed;
 .desk-pic{
   display: block;
  margin: 0 auto;
+ max-width: 100%;
 }
   
 
@@ -318,5 +319,18 @@ label {
 }
 
 
+
+@media only screen and (max-width: 320px) {
+
+  .nav-start {
+    display: none;
+  }
+
+  .nav-end {
+    display: none;
+  }
+  
+
+}
 
 
