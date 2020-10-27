@@ -26,21 +26,11 @@ class Home extends React.Component {
                  </div>
                  <div className='desk-pic-div'>
                 <img  className='desk-pic' src={'../desk.png'} alt=''/>
-                 </div>
-                <div>
+                </div>
                 <AboutMe />
-                </div>
-                <div>
-                    <Projects />
-                </div>
-                <div>
-                    <ContactMe />
-                </div>
-
-                <div>
-                    <Footer />
-                </div>
-
+               <Projects />
+               <ContactMe />
+                 <Footer />
             </div>
            
          )
