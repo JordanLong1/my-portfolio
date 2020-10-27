@@ -73,12 +73,12 @@ position: fixed;
   background-color: #fc0313;
   height: 100%;
   width: 100%;
-  border-radius: 25px;
+  border-radius: 1.5625em;
 }
 
 .about-me-header {
 
-  padding-top: 50px;
+  padding-top: 3.125em;
   font-family: Michroma;
   font-weight: 900;
   text-align: center;
@@ -86,7 +86,7 @@ position: fixed;
 }
 
 .bio {
-  padding: 50px;
+  padding: 3.125em;
   font-weight: 200;
   line-height: 2.0;
   color: white;
