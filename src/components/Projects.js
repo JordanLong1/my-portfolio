@@ -9,7 +9,6 @@ class Projects extends React.Component {
 
 
   handleToggle = () => {
-      console.log('hello')
     this.setState({showing: !this.state.showing})
   }
 
@@ -20,13 +19,13 @@ class Projects extends React.Component {
                 <h1 className='projects-header' id='projects'>Recent Work</h1>
                 <h4 className='h4-for-message'>Here are a few projects I've worked on. Want to see more? Insert GitHub Link</h4>
                     {this.state.showing ? 
-                    <div className='project-pics-and-info'>
+                    <div className='project-pics-and-info' onClick={this.handleToggle}>
                         <h4 className='proj-title'>Corner Store Clothing</h4>
-                    <ProjectPicture title='Corner Store' image={'../corner.png'} onClick={this.handleToggle}/>
+                    <ProjectPicture title='Corner Store' image={'../corner.png'} />
                     <button className='git-btn' onClick={ () =>  window.open('https://github.com/JordanLong1/corner_store', '_blank') }>Github</button>
                     <button className='youtube-btn' onClick={() => window.open('https://www.youtube.com/watch?v=unZXhgV5Y3o&t=14s', '_blank') }>Youtube</button>
                     </div>
-                     :  <div className='project-info-div'>
+                     :  <div className='project-info-div' onClick={this.handleToggle}>
                      <ProjectInfo titleDescription='Basic Shopping cart / e-commerce type with the ability to add and remove items to a from a cart.' description='+ Created the rails API to accomplish fetching product data and present it to the client. + Used OO Javascript to build out the frontend and fetch data from the API. + Implemented various CSS animations to refine the overall presentation of the project' technologies='OO Javascript, Ruby on Rails, HTML, CSS' /> 
                          </div>
                         }
