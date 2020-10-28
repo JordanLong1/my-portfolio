@@ -3,8 +3,7 @@ import '../Home.css'
 export const ProjectInfo = props => {
     return (
         <div>
-            <h4 >{props.title}</h4>
-            {props.titleDescription}
+     <p>{props.titleDescription}</p>
     <p>{props.description}</p>
     <li>{props.technologies}</li>
         </div>
