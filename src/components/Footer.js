@@ -4,8 +4,10 @@ class Footer extends React.Component {
     render() {
         return (
             <div className='footer-container'>
-                <div>
-                    Opening text maybe a quote
+                <div className='quote'>
+                    <p>
+                        "Pull, build, run, debug" - Joshua Teitalbaum
+                    </p>
                 </div>
 
                 <div className='social-icons'>
