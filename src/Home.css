@@ -21,9 +21,8 @@ body {
 .nav-end {
   width: 100%;
   float: left;
-  padding: 1px;
+  padding: 0.5em;
   text-align: right;
-
 position: fixed;
   top: 0;
   right: 2px;
@@ -32,10 +31,19 @@ position: fixed;
 .navbar-links {
   padding: 1em;
   color: black;
+  border: solid;
+}
+
+.navbar-links:hover {
+  padding: 1em;
+  color: white;
+  background-color: #faae6b;
+  border: solid;
+  border-color: white;
 }
 
 .navbar-links:active {
-  border-bottom: solid 1em black;
+  border-bottom: solid 0.5em black;
 }
 
 .home-container {
@@ -80,6 +88,11 @@ position: fixed;
   border-bottom: none;
 }
 
+/* .about-container:hover {
+  background-color: #faae6b;
+  color: black;
+} */
+
 .about-me-header {
 
   padding-top: 3.125em;
@@ -98,6 +111,7 @@ position: fixed;
   overflow: hidden;
 }
 
+
 .skills-container {
   background-color: white;
   display: block;
@@ -115,7 +129,7 @@ position: fixed;
 }
 
 .skills-column {
-  padding-top: 10%;
+  padding-top: 5%;
  display: block;
   margin: 5%;
   font-family: Michroma;
