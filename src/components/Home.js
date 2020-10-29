@@ -19,7 +19,7 @@ class Home extends React.Component {
              <div className='home-container' id='/'>
                 <Navbar />
                  <h1  className='home-text'>Front-end Developer </h1>  
-                 <h4 className='home-text'>I write code that users interact with, and I love what I do. </h4>
+                 <h4 className='home-text'>I write code that a user can interact with and I love what I do. </h4>
 
                  <div>
                 <img className='avt' src={'../Avatar.png'} alt='' />
