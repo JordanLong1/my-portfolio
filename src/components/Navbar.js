@@ -5,7 +5,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <div className="nav-start">
-              <Home />
+              <Home className='navbar-links' onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} ></Home>
 
               <div className='nav-end'>
               <Link className='navbar-links'
