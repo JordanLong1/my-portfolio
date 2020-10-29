@@ -117,7 +117,7 @@ position: fixed;
 .skills-column {
   padding-top: 10%;
  display: block;
-  margin: 50px;
+  margin: 5%;
   font-family: Michroma;
   font-size: 20px;
   text-align: center;
@@ -127,7 +127,7 @@ position: fixed;
 
 .skills-header {
   font-family: Michroma;
-  font-size: 40px;
+  font-size: 2em;
   font-weight: 900;
 }
 
@@ -149,18 +149,18 @@ position: fixed;
 }
 
 .contact-header {
-  margin-top: 300px;
+  margin-top: 15%;
   font-family: Michroma; 
-  font-size: 30px;
+  font-size: 2em;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 10%;
 }
 
 .convo-btn {
-  margin-top: 50px;
-  height: 50px;
-  width: 450px;
+  margin-top: 15%;
+  height: 100%;
+  max-width: 100%;
   border-radius: 25px;
   display: block;
   margin: 0 auto;
@@ -168,6 +168,7 @@ position: fixed;
   color: #fc0313;
   border-color: #fc0313;
   font-family: Michroma;
+  padding: 1em;
 }
 
 .convo-btn:hover {
@@ -177,14 +178,14 @@ position: fixed;
 }
 
 .mail-div-contact {
-  margin-bottom: 200px;;
+  margin-bottom: 10%;
 }
 
 
 .projects-header {
   font-family: Michroma;
   text-align: center;
- font-size: 50px;
+ font-size: 3em;
  margin-top: 15%;
 }
 
@@ -197,14 +198,14 @@ position: fixed;
 
 .h4-for-message {
   padding: 10%;
-  font-size: 30px;
+  font-size: 1.5em;
   font-family: Michroma;
   text-align: center;
 }
 
 .proj-title {
   text-align: center;
-  font-size: 20px;
+  font-size: 2em;
   font-family: Michroma;
   
 }
@@ -213,6 +214,31 @@ position: fixed;
   width: 100%;
   margin-bottom: 5%;
   border-radius: 25px;
+ 
+}
+
+.project-info-div {
+  width: 45vw;
+  min-width: 15em;
+  margin: 0 auto;
+  border-radius: 25px;
+  border-color: white;
+  border-style: solid;
+  word-wrap: break-word;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.project-info-div p {
+  line-height: 1em;
+  line-break: auto;
+  font-size: 1.5em;
+
+}
+
+.project-info-div li {
+  line-height: 1em;
+  font-size: 2em;
 }
 
 .front-card {
@@ -227,7 +253,7 @@ position: fixed;
 }
 
 .git-btn {
-  width: 10%;
+  /* width: 10%; */
   height: 10%;
   border-radius: 25px;
   background-color: white;
@@ -238,10 +264,13 @@ position: fixed;
   float: left;
   margin-left: 30%;
   margin-bottom: 5%;
+  max-width: 100%;
+  padding: 0.5em;
+
 }
 
 .youtube-btn {
-  width: 10%;
+  /* width: 10%; */
   height: 10%;
   border-radius: 25px;
   background-color: white;
@@ -251,6 +280,8 @@ position: fixed;
   float: right;
   margin-right: 30%;
   margin-bottom: 5%;
+  max-width: 100%;
+  padding: 0.5em;
 
 }
 li {
@@ -281,6 +312,7 @@ li {
   max-height: 100%;
   height: 100%;
   width: 100%;
+  border-radius: 25px;
   image-rendering: -moz-crisp-edges; /* Firefox */
   image-rendering: -o-crisp-edges; /* Opera */
   image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
@@ -293,6 +325,14 @@ li {
   width: 100%;
   padding-bottom: 10%;
   border: 3px solid #fc0313;
+}
+
+.quote p {
+  color: white;
+  text-align: center;
+  font-family: Michroma;
+  font-size: 2em;
+  margin-top: 2em;
 }
 
 .social-icons {
@@ -322,9 +362,18 @@ li {
   color: #fc0313;
 }
 
+.copyright p {
+  color: white;
+  text-align: center;
+  font-family: Michroma;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  margin-top: 5em;
+}
 
 
-@media only screen and (max-width: 320px) {
+
+@media only screen and (max-width: 960px) {
 
   .nav-start {
     display: none;
@@ -415,6 +464,33 @@ li {
     margin-bottom: 30%;
   }
 
+  .proj-info-h4 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .proj-info-div {
+    width: 45vw;
+    min-width: 15em;
+    margin: 0 auto;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    word-wrap: break-word;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .proj-info-div p {
+    font-size: 0.5em;
+    line-height: 0.5em;
+  }
+
+  .proj-info-div li {
+    font-size: 0.5em;
+    line-height: 0.5em;
+  }
+
   .proj-title {
     font-size: 15px;
     font-family: Michroma;
@@ -426,17 +502,17 @@ li {
   }
 
   .git-btn {
-    height: 25%;
-    width: 25%;
+    max-width: 100%;
     float: left;
     margin-left: 15%;
+    padding: 0.5em;
   }
 
   .youtube-btn {
-    height: 25%;
-    width: 25%;
+    max-width: 100%;
     float: right;
     margin-right: 15%;
+    padding: 0.5em;
   }
 
   .contact-container {
@@ -465,16 +541,44 @@ li {
     border-radius: 25px;
   }
 
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
 
+  }
   
+  .icon-divs {
+    margin-top: 30%;
+    border: solid white;
+    border-radius: 50px;
+  }
   
-  /* body {
-  display: flex; 
-  justify-content: space-evenly;
-  align-content: center;
-} */
+  .icons {
+    color: white;
+    max-width: 100%;
+  } 
 
+  .quote p{
+    color: white;
+  text-align: center;
+  font-family: Michroma;
+  font-size: 1em;
+  margin-top: 1.5em;
+  }
+
+  .copyright p {
+    color: white;
+    text-align: center;
+    font-family: Michroma;
+    font-size: 0.5em;
+    margin-bottom: 1.5em;
+    margin-top: 5em;
+  }
 
 }
 
+/* @media only screen and (min-width: 375px) 
 
+ */
