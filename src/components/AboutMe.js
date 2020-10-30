@@ -19,7 +19,7 @@ class AboutMe extends React.Component {
 
                 <div className='skills-column'>
                    <h4 className='skills-header'>FrontEnd</h4>
-                   <li>Javascript</li>
+                   <li>JavaScript</li>
                    <li>React</li>
                    <li>Redux</li>
                    <li>HTML</li>
@@ -30,7 +30,7 @@ class AboutMe extends React.Component {
                     <div className='skills-column'>
                 <h4 className='skills-header'>Backend</h4>
                 <li>Ruby on Rails</li>
-                <li>Postgres</li>
+                <li>PostgreSQL</li>
                 <li>SQLite</li>
                     </div>
          

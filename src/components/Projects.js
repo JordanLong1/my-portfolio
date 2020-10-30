@@ -1,6 +1,7 @@
 import React from 'react'
 import {ProjectPicture} from '../Cards/ProjectPicture'
 import {ProjectInfo} from '../Cards/ProjectInfo'
+import {Link} from 'react-router-dom'
 import '../Home.css'
 class Projects extends React.Component {
     
@@ -17,7 +18,7 @@ class Projects extends React.Component {
         return (
                 <div className='projects-container'>
                 <h1 className='projects-header' id='projects'>Recent Work</h1>
-                <h4 className='h4-for-message'>Here are a few projects I've worked on. Want to see more? Insert GitHub Link</h4>
+                <h4 className='h4-for-message'>Here are a few projects I've worked on. Want to see more? <Link onClick={() => window.open('https://github.com/JordanLong1')}>Github</Link></h4>
                     {this.state.showing ? 
                     <div className='project-pics-and-info' onClick={this.handleToggle}>
                         <h4 className='proj-title'>Corner Store Clothing</h4>

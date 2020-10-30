@@ -1,6 +1,11 @@
 import React from 'react'
 import {Twitter, GitHub, Linkedin, Mail} from 'react-feather'
 class Footer extends React.Component {
+
+    handleClick = () => {
+        window.location.href = "mailto:jordanleelong5@gmail.com"
+
+    }
     render() {
         return (
             <div className='footer-container'>
