@@ -1,12 +1,10 @@
 import React from 'react'
-import {Home} from 'react-feather'
 import {Link} from 'react-scroll'
 class Navbar extends React.Component {
     render() {
         return (
             <div className="nav-start">
-              <Home className='navbar-links' onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} ></Home>
-
+            <div> <img onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}  className='logo-img' src='../logo.png' alt='icon'/> </div>
               <div className='nav-end'>
               <Link className='navbar-links'
                activeClass='active'
