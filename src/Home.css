@@ -18,10 +18,16 @@ body {
   width: 100%;
 }
 
+.logo-img {
+  height: 5%;
+  width: 5%;
+}
+
 .nav-end {
   width: 100%;
   float: left;
   padding: 0.5em;
+  margin-top: 1em;
   text-align: right;
 position: fixed;
   top: 0;
@@ -31,7 +37,7 @@ position: fixed;
 .navbar-links {
   padding: 1em;
   color: black;
-  border: solid;
+  /* border: solid; */
 }
 
 .navbar-links:hover {
@@ -39,7 +45,7 @@ position: fixed;
   color: white;
   background-color: #faae6b;
   border: solid;
-  border-color: white;
+  border-color:black;
 }
 
 .navbar-links:active {
@@ -390,13 +396,26 @@ li {
 @media only screen and (max-width: 960px) {
 
   .nav-start {
-    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
-
+  
+  .logo-img {
+    height: 10%;
+    width: 10%;
+  }
+  
   .nav-end {
     display: none;
+    
   }
-
+  
+  .navbar-links {
+    padding: 1em;
+    color: black;
+    /* border: solid; */
+  }
   .home-text {
     width: 100%;
     font-size: 20px;
