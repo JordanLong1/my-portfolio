@@ -45,6 +45,7 @@ position: fixed;
   color: white;
   background-color: #faae6b;
   border: solid;
+  border-radius: 25px;
   border-color:black;
 }
 
