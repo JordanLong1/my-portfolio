@@ -21,6 +21,7 @@ body {
 .logo-img {
   height: 5%;
   width: 5%;
+  cursor: pointer;
 }
 
 .nav-end {
@@ -379,6 +380,7 @@ li {
   color: white;
   height: 50px;
   width: 100px;
+  cursor: pointer;
 } 
 
 .icon-divs:hover {
