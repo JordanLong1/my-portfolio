@@ -197,6 +197,7 @@ position: fixed;
   border-color: #fc0313;
   font-family: Michroma;
   padding: 1em;
+  cursor: pointer;
 }
 
 .convo-btn:hover {
@@ -294,6 +295,7 @@ position: fixed;
   margin-bottom: 5%;
   max-width: 100%;
   padding: 0.5em;
+  cursor: pointer;
 
 }
 
@@ -310,6 +312,7 @@ position: fixed;
   margin-bottom: 5%;
   max-width: 100%;
   padding: 0.5em;
+  cursor: pointer;
 
 }
 li {
@@ -346,6 +349,7 @@ li {
   image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
   image-rendering: crisp-edges;
   -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+  cursor: pointer;
 }
 
 .footer-container {
