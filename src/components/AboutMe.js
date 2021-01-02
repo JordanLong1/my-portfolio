@@ -19,19 +19,28 @@ class AboutMe extends React.Component {
 
                 <div className='skills-column'>
                    <h4 className='skills-header'>FrontEnd</h4>
-                   <li>JavaScript</li>
-                   <li>React</li>
-                   <li>Redux</li>
-                   <li>HTML</li>
-                   <li>CSS</li>
-                   <li>Bootstrap, Semantic UI</li>
+                   <li className='language-list' >JavaScript</li>
+                   <img className='language-icons' src='../jsicon.png' alt='' />
+                   <li className='language-list' >React</li>
+                   <img className='language-icons' src='../react-icon.png' alt='' />
+                   <li className='language-list' >Redux</li>
+                   <img className='language-icons' src='../redux-logo.png' alt='' />
+                   <li className='language-list' >HTML</li>
+                   <img className='language-icons' src='../html-logo.png' alt='' />
+                   <li className='language-list' >CSS</li>
+                   <img className='language-icons' src='../css-logo.png' alt='' />
+                   <li className='language-list' >Bootstrap, Semantic UI</li>
+
                     </div>
 
                     <div className='skills-column'>
                 <h4 className='skills-header'>Backend</h4>
-                <li>Ruby on Rails</li>
-                <li>PostgreSQL</li>
-                <li>SQLite</li>
+                <li className='language-list' >Ruby on Rails</li>
+                <img className='language-icons' src='../rails-logo.png' alt='' />
+                <li className='language-list' >PostgreSQL</li>
+                <img className='language-icons' src='../postgre-logo.png' alt='' />
+                <li className='language-list' >SQLite</li>
+                <img className='language-icons' src='../sqlite-logo.png' alt='' />
                     </div>
          
             <div className='skills-column'>
