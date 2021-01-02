@@ -148,9 +148,15 @@ position: fixed;
 
 .skills-header {
   font-family: Michroma;
-  font-size: 2em;
+  font-size: 4em;
   font-weight: 900;
+  margin-bottom: 1.5em;
 }
+
+.language-list {
+  font-size: 3em;
+}
+
 
 .contact-container {
     height: 100%;
@@ -390,6 +396,11 @@ li {
   font-size: 1.5em;
   margin-bottom: 0.5em;
   margin-top: 5em;
+}
+
+.language-icons {
+  height: 15%;
+  width: 15%;
 }
 
 
