@@ -45,14 +45,14 @@ class Projects extends React.Component {
                     }
                     {this.state.showing ? 
                     <div className='project-pics-and-info' onClick={this.handleToggle}>
-                    <h4 className='proj-title'>Optimal CRM</h4>
-                    <ProjectPicture title='Optimal CRM' image={'../optimal.png'}/>
-                    <button className='git-btn' onClick={() => window.open('https://github.com/JordanLong1/optimal_crm', '_blank')}>Github</button>
-                    <button className='youtube-btn' onClick={() => window.open('https://www.youtube.com/watch?v=9qApp5xO-8s&t=53s', '_blank')}>Youtube</button>
+                    <h4 className='proj-title'>Branchify</h4>
+                    <ProjectPicture title='Branchify' image={'../branchify.png'}/>
+                    <button className='git-btn' onClick={() => window.open('https://github.com/JordanLong1/class-based-branching-scenario', '_blank')}>Github</button>
+                    <button className='youtube-btn' onClick={() => window.open('https://www.branchify.app', '_blank')}>Production</button>
                     </div>
                     : 
                     <div className='project-info-div' onClick={this.handleToggle}>
-                    <ProjectInfo title='Optimal CRM' titleDescription='Fake CRM with the ability for a salesrepresentative to keep track of leads, tasks, and companies.' description='Achieved the usage of model, view, controller (MVC) design pattern for separation of concerns within the application. Demonstrated CRUD (create, read, update, delete) to implement a persistent storage application. Maximized user security measures with implementing Bcrypt to safely store and salt user passwords.' technologies='Ruby on Rails'/>
+                    <ProjectInfo title='Branchify' titleDescription='Branching Scenario' description='Using React I created a branching scenario where you have a set of questions and each question has a set of answers or options. Each option will take you down a different set of questions and depending on your answers will determine your personal learning style. ' technologies='React'/>
                     </div>
                          }
                 </div>
